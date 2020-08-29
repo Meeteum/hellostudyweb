@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimun-scale=1, maximum-scale=1, user-scalable=no">
+    
+      <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
+    
+    <style>
+        {outline: 1px solid;}
+        *{box-sizing: border-box;}
+        @media(min-width:992px){
+
+        .wrap{max-width: 960px;}
+        }
+
+        @media(min-width:1200px){
+
+.wrap{max-width: 1140px;}
+}
+        
+        @media(min-width:360px){
+        .wrap{margin: auto; width:80%; height: 80%;} 
+        .box_01{margin-top: 3%;}
+        .box_01 img{width: 45%; margin-top: 7%;}
+            
+        
+ body, body * {
+  cursor: none;
+}
+
+.shapes {
+  position: relative;
+  height:76vh;
+  width:80vw;
+  background:skyblue;
+  overflow: hidden;
+}
+
+.shape {
+  will-change: transform;
+  position: absolute;
+  border-radius: 50%;
+}
+.shape.shape-1 {
+  background:black;
+  width: 650px;
+  height: 650px;
+  margin: -325px 0 0 -325px;
+}
+.shape.shape-2 {
+  background: #ffe5e3;
+  width: 440px;
+  height: 440px;
+  margin: -220px 0 0 -220px;
+}
+.shape.shape-3 {
+  background: #ffcc57;
+  width: 270px;
+  height: 270px;
+  margin: -135px 0 0 -135px;
+}
+
+.content {
+  top: -18%;
+  left: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:110vh;
+  width: 100vw;
+  background: #fff;
+  mix-blend-mode: screen;
+}
+
+h1 {
+ 
+  margin: 0;
+  text-align: center;
+}
+
+
+.cursor {
+  position: fixed;
+  background: coral;
+  width: 10px;
+  height: 10px;
+  margin: -20px 0 0 -20px;
+  border-radius: 50%;
+  will-change: transform;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+  z-index: 10000;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: skyblue;
+}
+
+::selection {
+  color: #fff;
+  background: skyblue;
+}
+             
+            
+    
+        .box_02 ul{ display: flex;  flex: 3; padding-left:4%; justify-content: center;align-items: center; 
+            z-index: 20000; margin-top:-0.5%;}
+            .box_02 ul img{width: 70%;
+            z-index: 20000;}
+            
+            
+            .study{position: relative;}
+            .lotto{position: relative;}  .ladder{position: relative;}
+          
+            .study:hover{
+           -webkit-animation-duration: 5s;
+  animation-duration: 2.5s;
+  -webkit-backface-visibility: visible !important; 
+  backface-visibility: visible !important;    
+                
+                
+              -webkit-animation-name: pulse;
+  animation-name: pulse;}
+            
+         @-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(2.05, 2.05, 2.05);
+    transform: scale3d(2.05, 2.05, 2.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.6,1.6, 1.6);
+    transform: scale3d(1.6, 1.6, 1.6);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}   
+ 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+    .clock:hover{
+   -webkit-animation-duration: 5s;
+  animation-duration: 2.5s;
+  -webkit-backface-visibility: visible !important; 
+  backface-visibility: visible !important;    
+                
+                
+              -webkit-animation-name: pulse;
+  animation-name: pulse;}
+            
+         @-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(2.05, 2.05, 2.05);
+    transform: scale3d(2.05, 2.05, 2.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.6,1.6, 1.6);
+    transform: scale3d(1.6, 1.6, 1.6);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+            
+            
+   .lotto:hover{
+    -webkit-animation-duration: 5s;
+  animation-duration: 2.5s;
+  -webkit-backface-visibility: visible !important; 
+  backface-visibility: visible !important;    
+                
+                
+              -webkit-animation-name: pulse;
+  animation-name: pulse;}
+            
+         @-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(2.05, 2.05, 2.05);
+    transform: scale3d(2.05, 2.05, 2.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.6,1.6, 1.6);
+    transform: scale3d(1.6, 1.6, 1.6);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+                     
+            
+
+            .ladder:hover{
+   -webkit-animation-duration: 5s;
+  animation-duration: 2.5s;
+  -webkit-backface-visibility: visible !important; 
+  backface-visibility: visible !important;    
+                
+                
+              -webkit-animation-name: pulse;
+  animation-name: pulse;}
+            
+         @-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(2.05, 2.05, 2.05);
+    transform: scale3d(2.05, 2.05, 2.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.6,1.6, 1.6);
+    transform: scale3d(1.6, 1.6, 1.6);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+                     
+    
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                
+
+        
+        
+            
+           
+            .clock{ position: relative; }
+            
+            .clock:after{
+	content: "";
+	position: absolute;
+	background-color:black;
+	top:40%;
+	left:35%;
+	height:16%;
+	width: 1%;
+   border-radius: 5%;
+
+	-webkit-transform-origin: 50% 97%;
+			transform-origin: 50% 97%;
+	-webkit-animation: grdAiguille 2s linear infinite;
+			animation: grdAiguille 2s linear infinite;
+}
+
+@-webkit-keyframes grdAiguille{
+    0%{-webkit-transform:rotate(0deg);}
+    100%{-webkit-transform:rotate(360deg);}
+}
+
+@keyframes grdAiguille{
+    0%{transform:rotate(0deg);}
+    100%{transform:rotate(360deg);}
+}
+
+.clock:before{
+	content: "";
+	position: absolute;
+	background-color: black;
+	top:37.5%;
+	left:35%;
+	height:19%;
+	width: 1%;
+    border-radius: 5%;
+	
+	-webkit-transform-origin: 50% 94%;
+			transform-origin: 50% 94%;
+	-webkit-animation: ptAiguille 15s linear infinite;
+			animation: ptAiguille 15s linear infinite;
+}
+
+@-webkit-keyframes ptAiguille{
+    0%{-webkit-transform:rotate(0deg);}
+    100%{-webkit-transform:rotate(360deg);}
+}
+
+@keyframes ptAiguille{
+    0%{transform:rotate(0deg);}
+    100%{transform:rotate(360deg);}
+}
+            
+           
+            
+            
+            
+            
+            
+            
+            
+            
+        
+         .text_01{display: flex; flex-direction: row;
+         flex: 3; width: 100%; 
+           margin-left: -3%;}}
+
+        .text_01 div{width: 25%; 
+        font-size: 2vw; font-family: 'Jua', sans-serif; font-weight: lighter;display: flex;
+            justify-content: center; margin-right: 3%;
+            padding-left: 0;
+            position: relative;}
+            
+    .footer p{ padding-top: 1%; text-align: center; padding-bottom: 1%;
+        font-size: 0.8vw; color: #333; position: relative;}
+            
+            
+            
+     }
+    </style>
+    
+</head>
+<body>
+  <div class="wrap">
+      <div class="box_01">
+        <script>
+  window.console = window.console || function(t) {};
+</script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+<div class="cursor" style="transform: translate(429px, 14px);"></div>
+<div class="shapes">
+<div class="shape shape-1" style="transform: translate(429px, 14px);"></div>
+<div class="shape shape-2" style="transform: translate(429px, 14px);"></div>
+<div class="shape shape-3" style="transform: translate(429px, 14px);"></div>
+</div>
+<div class="content">
+<h1>
+ <img src="img/img_06.png" alt=""></h1>
+</div>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+         
+          
+      
+      
+    <div class="box_02">
+        
+        <ul>
+        <div class="study"><a href="http://15.164.95.200/study/" target="_parent"><img src="img/icon_01.png" alt=""></a></div>
+        <div class="clock"><a href="http://15.164.95.200/clock/" target="_parent"><img src="img/icon_02.png" alt=""></a></div>
+        <div class="lotto"><a href="http://15.164.95.200/lotto/" target="_parent"><img src="img/icon_03.png" alt=""></a></div>
+        <div class="ladder"><a href="http://15.164.95.200/ladder/" target="_parent"><img src="img/icon_04.png" alt=""></a></div>
+        </ul>
+        
+      
+  
+      
+         <ul class="text_01">
+            
+        <div>공부하기</div>
+        <div>시계만들기</div>
+        <div>&nbsp;&nbsp;로또번호생성기</div>
+        <div>&nbsp;사다리 게임</div>    
+        </ul>
+      </div>
+    </div>
+        
+          <div class="footer">
+          <p>Copyright Ⓒ Meeteum _ Son / All rights reserved.</p>
+      </div>
+        
+        
+  </div>
+    <script>
+      document.body.addEventListener("mousemove", evt => {
+    const mouseX = evt.clientX;
+    const mouseY = evt.clientY;
+    
+    gsap.set(".cursor", {
+      x: mouseX,
+      y: mouseY
+    })
+    
+    gsap.to(".shape", {
+      x: mouseX,
+      y: mouseY,
+      stagger: -0.1
+    })
+  })
+    </script>
+      
+        
+            
+</body>
+</html>
